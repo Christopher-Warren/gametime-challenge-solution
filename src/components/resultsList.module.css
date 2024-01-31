@@ -1,0 +1,56 @@
+.listContainer {
+  background-color: white;
+  position: absolute;
+  border-radius: 3px;
+  width: 350px;
+  margin: 0 25px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.ellipses {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.entityContainer {
+  width: 100%;
+  text-align: start;
+  padding: 10px 10px;
+  border-top: 1px solid #f1f5f9;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.entityContainer:hover {
+  background-color: #f1f5f9;
+}
+.entityImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.entityTitle {
+  font-size: large;
+  color: #0f172a;
+}
+
+.entitySubtitle {
+  font-size: small;
+  color: #64748b;
+}
+
+.error {
+  padding: 10px;
+  font-size: large;
+}

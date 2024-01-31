@@ -1,0 +1,34 @@
+.logo {
+  text-align: center;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  width: 30px;
+  padding-left: 12px;
+}
+
+.inputSearch {
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 1px solid #94a3b8;
+  width: 400px;
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  padding: 15px 18px;
+}
+
+.closeButtonIcon {
+  width: 20px;
+}
